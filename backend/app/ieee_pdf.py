@@ -14,7 +14,6 @@ from reportlab.platypus import (
     KeepTogether
 )
 
-
 PAGE_WIDTH, PAGE_HEIGHT = A4
 
 LEFT = 0.55 * inch
