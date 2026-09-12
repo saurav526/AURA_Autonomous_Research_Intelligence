@@ -1,3 +1,4 @@
+// /react-app/src/main.jsx ==> for the AURA Autonomous Research Intelligence frontend application
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
