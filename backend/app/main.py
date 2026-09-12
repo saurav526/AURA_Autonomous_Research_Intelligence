@@ -16,10 +16,12 @@ app=FastAPI(title='AURA Research Intelligence API',version='2.0.0')
 app.add_middleware(CORSMiddleware,allow_origins=[FRONTEND_ORIGIN,'http://localhost:3000'],allow_credentials=True,allow_methods=['*'],allow_headers=['*'])
 @app.get('/api/health')
 def health(): return {'status':'ok'}
+
 @app.post('/api/research',response_model=ResearchResult)
 async def research(req: ResearchRequest):
     try: return await run_research(req.query,req.max_sources)
     except Exception as exc: raise HTTPException(status_code=500,detail=str(exc))
+
 @app.post('/api/report/pdf')
 async def report_pdf(payload: dict):
     query=str(payload.get('query','AURA Research Report'))
