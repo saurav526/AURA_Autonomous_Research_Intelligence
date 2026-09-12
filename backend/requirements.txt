@@ -8,3 +8,4 @@ pydantic
 httpx
 beautifulsoup4
 reportlab
+
