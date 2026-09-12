@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+groq
+langgraph
+langchain-core
+pydantic
+httpx
+beautifulsoup4
+reportlab
