@@ -1,3 +1,4 @@
+# import the Groq client and configuration settings
 from groq import Groq
 from .config import GROQ_API_KEY, GROQ_MODEL
 
