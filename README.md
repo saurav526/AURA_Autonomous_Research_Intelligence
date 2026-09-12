@@ -12,6 +12,8 @@ Full-stack Agentic AI research assistant using Groq + LangGraph + FastAPI + Reac
 - Confidence score
 - React research dashboard
 
+
+
 ## Backend
 ```bash
 cd backend
@@ -47,3 +49,6 @@ After a research run, click **Download PDF** under the final report. ReportLab g
 
 ## Run anytime on Windows
 After the first setup, double-click `START_AURA.bat`. It starts the FastAPI backend and React frontend in separate terminals and opens the application.
+
+## Feedback
+do forget to give star and suggestion for improvement 
