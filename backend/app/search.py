@@ -1,3 +1,4 @@
+# tool calling for web search using DuckDuckGo's HTML interface
 import httpx
 from bs4 import BeautifulSoup
 from urllib.parse import quote, urlparse
