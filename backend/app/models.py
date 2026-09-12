@@ -1,3 +1,4 @@
+# pydantic models for research requests and results and data parsing for the AURA Research Intelligence API
 from pydantic import BaseModel, Field
 from typing import Any, Dict, List
 
